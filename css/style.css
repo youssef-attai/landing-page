@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*::selection {
+    background-color: #111;
+    color: #999;
+}
+
+html,
+body {
+    margin-top: 30px;
+    background-color: #111;
+    height: 100%;
+}
+
+h1 {
+    white-space: nowrap;
+    font-size: 5rem;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    list-style: none;
+}
+
+.section-li {
+    white-space: nowrap;
+}
+
+.add-section {
+    user-select: none;
+    transition: background-color 0.5s;
+    padding: 20px;
+    border: 0;
+}
+
+.section-li:hover,
+.add-section:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.section-li {
+    transition: background-color 0.5s;
+    padding: 10px;
+}
+
+.nav-list,
+.nav-bar {
+    display: flex;
+    background-color: #eee;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-list {
+    overflow-x: auto;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 30px;
+    color: #eee;
+}
+
+.sections-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-wrapper {
+    padding: 20px;
+}
+
+.section {
+    background-color: #333;
+    color: #eee;
+    padding: 10px 30px 30px;
+    max-width: 1000px;
+    border-radius: 30px;
+    box-shadow: #000 0 0 30px;
+}
+
+.section-header {
+    flex: 6;
+    padding: 20px 0;
+}
+
+.section-head  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapse-section {
+    user-select: none;
+    cursor: pointer;
+    flex: 1;
+    transition: background-color 0.5s;
+    background-color: #333;
+    color: #eee;
+    border: 0;
+    border-radius: 30px;
+}
+
+.collapse-section:hover {
+    background-color: #222;
+}
+
+.section-collapsed {
+    height: 90px;
+}
+
+.section-collapsed .section-content{
+    visibility: hidden;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    padding: 150px 30px;
+    color: #eee;
+}
+
+.section-focused {
+    background-color: #777;
+    box-shadow: #eee 0 0 30px;
+    color: #fff;
+}
+
+.section-focused .collapse-section {
+    background-color: #777;
+    color: #fff;
+}
+
+.li-focused {
+    background-color: #bbb;
+}
+
+.li-focused:hover {
+    background-color: #aaa;
+}
+
+.section-focused .collapse-section:hover {
+    background-color: #666;
+}
+
