@@ -57,11 +57,13 @@ class SectionFactory {
         heading.innerText = `Section ${sectionsList.length+1}`;
 
         const collapseButton = document.createElement("button");
-        collapseButton.innerText = "expand/collapse";
+        collapseButton.innerText = "+/-";
         collapseButton.classList.add("collapse-section");
         collapseButton.addEventListener("click", ()=>{
             section.classList.toggle("section-collapsed");
-            section.scrollIntoView();
+            section.scrollIntoView({
+                behavior: "smooth"
+            });
             handleScroll();
         });
 
@@ -95,6 +97,14 @@ class SectionFactory {
 }
 
 const sectionFactory = new SectionFactory();
+ 
+document.querySelector(".scroll-top").addEventListener("click", ()=>{
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+});
 
 document.querySelector(".add-section").addEventListener("click", ()=>{
     const section = sectionFactory.createSection();
@@ -111,6 +121,8 @@ document.addEventListener("scroll", handleScroll);
 
 document.querySelector(".nav-list").addEventListener("click", (e)=>{
     if (e.target.nodeName.toLowerCase() === "li" && !isNaN(e.target.id)) {
-        sectionsList[Number(e.target.id)-1].section.scrollIntoView();
+        sectionsList[Number(e.target.id)-1].section.scrollIntoView({
+            behavior: "smooth"
+        });
     }
 });
