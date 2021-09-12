@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Landing Page Project
 
 ## Project description
@@ -30,4 +29,3 @@ Youssef Atta'i
  Project 1: Landing Page
 
 For quick access (github pages): https://youssef-attai.github.io/landing-page/
->>>>>>> bd8445e3e1e86c4dc2885f4420715ad9f45418cf
