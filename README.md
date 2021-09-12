@@ -24,8 +24,3 @@ Youssef Atta'i
 [JavaScript to check if a string is a valid number | StackOverflow answer](https://stackoverflow.com/a/175746)
 
 [Sticky Navigation Bar On Scroll Using Vanilla Javascript | YouTube Video](https://www.youtube.com/watch?v=6HFpw5fcaD8&ab_channel=OnlineTutorials)
-=======
-# landing-page
- Project 1: Landing Page
-
-For quick access (github pages): https://youssef-attai.github.io/landing-page/
