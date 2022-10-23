@@ -1,4 +1,4 @@
-# Landing Page Project
+# Landing Page Template
 
 ## Project description
 The main goal of this project is to practice manipulating the DOM using JavaScript.
