@@ -5,12 +5,12 @@ The main goal of this project is to practice manipulating the DOM using JavaScri
 
 Basically, it is a landing page that has a variable number of sections and a navigation bar for scrolling between those sections, the active section is given a bit of a style as well as it's navigation list item.
 
-This can be done in many ways, however, I prefer the object-oriented approach.
-The plan at first was to make use of the observer pattern and the abstract factory pattern, but it turns out that the project is way simpler than that, and a basic SectionFactory class in combination with a Section class was able to do it easily.
+This can be done in many ways, however, I preferred the object-oriented approach.
+The plan at first was to make use of the observer pattern and the abstract factory pattern, but it turns out that the project is way simpler than that, and a basic SectionFactory class in combination with a Section class did just fine.
 
-You can access the project using the [github pages link](https://youssef-attai.github.io/landing-page/)
+You can try it out [here](https://youssef-attai.github.io/landing-page/)
 
-or you can of course clone the repo.
+or you can clone the repo.
 
 ## Technologies used
 - HTML5
