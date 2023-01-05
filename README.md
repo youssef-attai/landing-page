@@ -1,7 +1,5 @@
 # Landing Page Template
 
-## Project description
-
 Basically, it is a landing page that has a variable number of sections
 and a navigation bar for scrolling between those sections, 
 the active section is given a bit of a style, as well as it's navigation list item.
