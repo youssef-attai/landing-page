@@ -1,4 +1,4 @@
-# Landing Page Template
+# Landing Page
 
 Basically, it is a landing page that has a variable number of sections
 and a navigation bar for scrolling between those sections, 
