@@ -154,9 +154,14 @@ li {
 }
 
 .section-focused {
+  transition: background-color 0.4s;
   background-color: #777;
-  box-shadow: #eee 0 0 30px;
+  box-shadow: #333 0 0 20px;
   color: #fff;
+}
+
+.section-focused svg {
+  transform: rotate(180deg);
 }
 
 .section-focused .collapse-section {
