@@ -139,3 +139,11 @@ document.querySelector(".nav-list").addEventListener("click", (e) => {
     });
   }
 });
+
+fetch("https://currencies.flatter.dev/api/v1/hashrate/")
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
