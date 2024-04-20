@@ -141,8 +141,9 @@ document.querySelector(".nav-list").addEventListener("click", (e) => {
 });
 
 fetch("https://currencies.flatter.dev/api/v1/hashrate/")
-  .then((res) => {
-    console.log(res);
+  .then(async (res) => {
+    const data = await res.json();
+    console.log(data);
   })
   .catch((err) => {
     console.log(err);
